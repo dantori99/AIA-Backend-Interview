@@ -13,16 +13,6 @@ router.post('/search', (req, res) => {
             status: 'ok',
             result,
         })
-        // if (result.stat === 'ok') {
-        //         let allPhotos = result.photos.photo.map(photo => ({
-        //             photoStaticURL: 'https://farm' + photo.farm + '.staticflickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg',
-        //             PhotoFlickrURL: 'https://www.flickr.com/photos/' + photo.owner + '/' + photo.id,
-        //             photoOwnerURL: 'https://www.flickr.com/photos/' + photo.owner,
-        //             photoTitle: photo.title,
-        //             photoOwner: photo.owner
-
-        //         }))
-        // }
     })
 })
 
